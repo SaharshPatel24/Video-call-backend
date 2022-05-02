@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Route
-app.get('/check', (req, res) => {
+app.get('/', (req, res) => {
     res
         .send({
             success: true,
